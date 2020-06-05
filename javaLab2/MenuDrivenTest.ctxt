@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=MenuDrivenTest
+comment1.params=
+comment1.target=int[]\ getArray()
+comment2.params=
+comment2.target=int\ getChoice()
+comment3.params=
+comment3.target=void\ replaceZeroWithLargestOdd()
+comment3.text=\r\n\ \ \ \ Accept\ an\ array\ and\ return\ an\ array\ where\ each\ zero\ value\ in\ the\ array\ is\ replaced\ \r\n\ \ \ \ by\ the\ largest\ odd\ number\ to\ the\ right\ of\ zero\ in\ the\ array.\ If\ there\ is\ no\ odd\ number\ \ \r\n\ \ \ \ to\ the\ right\ of\ zero\ leave\ zero\ as\ it\ is.\ Consider\ the\ example\r\n\ \ \ \ [0,\ 5,\ 0,\ 3]\ \u2192\ [5,\ 5,\ 3,\ 3]\ \r\n
+comment4.params=
+comment4.target=void\ ReplaceNumberWithMultipleOf5()
+comment4.text=\r\n\ Accept\ an\ array\ and\ for\ each\ multiple\ of\ 5\ in\ the\ given\ array,\ change\ all\ the\ values\r\n\ following\ it\ to\ that\ multiple\ till\ you\ encounter\ another\ multiple\ of\ 5.Consider\ the\ \r\n\ following\ example\ [2,\ 10,\ 3,\ 4,\ 20,\ 7]\ \u2192\ [2,\ 10,\ 10,\ 10,\ 20,\ 20]\r\n
+comment5.params=
+comment5.target=void\ isThreeIncreasingAdjacent()
+comment5.text=Accept\ an\ array\ and\ return\ a\ Boolean\ value\ True\ if\ array\ contains,\ \r\n\ somewhere,\ three\ increasing\ adjacent\ numbers\ like\ 5,6,7.\ \r\n\ Consider\ the\ following\ example\ \r\n\ [1,\ 4,\ 5,\ 6,\ 2]\ \u2192\ true\r\n
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+numComments=7

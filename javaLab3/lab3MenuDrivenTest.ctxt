@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=lab3MenuDrivenTest
+comment1.params=
+comment1.target=java.lang.String\ getString()
+comment2.params=
+comment2.target=int\ getChoice()
+comment3.params=str1\ str2
+comment3.target=boolean\ isAnagram(java.lang.String,\ java.lang.String)
+comment3.text=\r\n\ \ method\ that\ takes\ two\ strings\ and\ checks\ whether\ \r\n\ they\ are\ anagrams\ of\ each\ other\ Two\ words\ are\ anagrams\ if\ they\ \r\n\ contain\ the\ same\ letters\ and\ the\ same\ number\ of\ each\ letter.\ \r\n\ For\ example,\ \u201Cstop\u201D\ is\ an\ anagram\ of\ \u201Cpots\u201D.\r\n
+comment4.params=str1
+comment4.target=boolean\ isAbecedarian(java.lang.String)
+comment4.text=\r\n\ \ method\ called\ \u201CisAbecedarian\u201D\ that\ takes\ a\ String\ and\ \r\n\ \ returns\ a\ boolean\ indicating\ whether\ the\ word\ is\ abecedarian.\ \r\n\ \ A\ word\ is\ said\ to\ be\ \u201Cabecedarian\u201D\ if\ the\ letters\ in\ the\ word\ \r\n\ \ appear\ in\ alphabetical\ order.\ For\ example,\ abdest,\ agnosy,\ befist\r\n
+comment5.params=str1
+comment5.target=boolean\ isDoubloon(java.lang.String)
+comment5.text=\r\n\ \ method\ called\ \u201CisDoubloon\u201D\ that\ takes\ a\ string\ and\ checks\ \r\n\ whether\ it\ is\ a\ doubloon.\ A\ word\ is\ said\ to\ be\ a\ \u201Cdoubloon\u201D\ if\ \r\n\ every\ letter\ that\ appears\ in\ the\ word\ appears\ exactly\ twice.\ \r\n\ For\ example\ coco,\ noon\r\n
+comment6.params=
+comment6.target=void\ checkAnagram()
+comment7.params=
+comment7.target=void\ checkAbecedarian()
+comment8.params=
+comment8.target=void\ checkDoubloon()
+comment9.params=args
+comment9.target=void\ main(java.lang.String[])
+numComments=10
