@@ -1,0 +1,80 @@
+import java.util.*;
+class Holiday{
+	String name;
+	int day;
+	String month;
+	
+	Holiday(){
+		this.name = "holidayName";
+		this.day = 0;
+		this.month = "monthName";
+	}
+	
+	Holiday(String name, int day, String month){
+		this.name = name;
+		this.day = day;
+		this.month = month;
+	}
+	
+	public boolean isSameMonth(Holiday obj2){
+		return (this.month.equals(obj2.month));
+	}
+	
+	public static float avgDate(Holiday[] arrayObj){
+		int daySum = 0;
+		int count = arrayObj.length;
+		for(int i = 0; i < count; i += 1){
+			daySum += arrayObj[i].day;
+		}
+		return ((float)daySum / count);
+	}
+}
+
+
+public class checkholiday{
+	static String name;
+	static int day;
+	static String month;
+	static Scanner scan = new Scanner(System.in);
+	
+	static void getHolidayDetails(){
+		System.out.println("Enter the day");
+		day = scan.nextInt();
+		System.out.println("Enter the name of the holiday");
+		name = scan.next();
+		System.out.println("Enter the month");
+		month = scan.next();
+	}
+	
+	public static void main(String[] args){
+		System.out.println("Enter the first object details");
+		getHolidayDetails();
+		Holiday obj1 = new Holiday(name, day, month);
+		
+		System.out.println("Enter the second object details");
+		getHolidayDetails();
+		Holiday obj2 = new Holiday(name, day, month);
+		
+		
+		System.out.println("Enter the number of objects for array of objects to be created");
+		int count = scan.nextInt();
+		Holiday[] arrayObj = new Holiday[count];
+		System.out.println("Enter the details for " + count + " Holiday objects");
+		
+		for(int i = 0; i < count; i += 1){
+			int num = i + 1;
+			System.out.println("Enter details of" + num + " object");
+			getHolidayDetails();
+			arrayObj[i] = new Holiday(name, day, month);
+		}	
+		
+		System.out.println("Applying the method isSameMonth() on the two objects created");
+		System.out.println(obj1.isSameMonth(obj2));
+		
+		System.out.println("Applying the method avgDate() on the array of objects created");
+		System.out.println(Holiday.avgDate(arrayObj));
+		
+		
+	}	
+
+}
