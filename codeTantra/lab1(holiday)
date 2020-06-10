@@ -1,3 +1,31 @@
+/*
+Create a class called “Holiday”.An object of Holiday represents a holiday during the year. The class has three member variables
+
+·      name, A String which represents the name of the holiday.
+
+·      day, which is an integer value representing the day of the month(for eg 11)
+
+·      month, A string value which represents the month the holiday falls in.
+
+a)   Write a parameterised constructor to sets value to  all the member variables.Create two objects initially and then array of object taking input for number of objects in the array from user.
+
+b)   Write a method called isSameMonth() which compares two objects of the class and returns Boolean value of “true” if the holiday falls on the same month else “false”.  
+
+c)    Write a method avgDate() which takes an array of Holiday objects as argument and returns a double value that is the average of the “day” variable in the Holiday objects.
+
+
+
+Note: Follow the given sequence
+
+Create two objects taking input from user
+Create array of objects taking input from user
+Call the "isSameMonth()" using the first two objects created
+Call "avgDate()" sending the array of object as argument
+*
+*/
+
+
+
 import java.util.*;
 class Holiday{
 	String name;
