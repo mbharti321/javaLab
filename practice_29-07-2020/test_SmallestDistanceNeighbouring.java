@@ -6,7 +6,7 @@
  * In the sequence 4 8 6 1 2 9 4 the minimum distance is 1 (between 1 and 2).
  * The function should return the index 3 (of number 1).
  * 
- * @author (MCA 3) 
+ * @author (Me😊) 
  * @version (a version number or a date)
  */
 import java.util.*;
