@@ -17,11 +17,10 @@
  * @version (a version number or a date)
  */
 class Sudoku{
-
-
+    //pass
 }
 public class TestSudoku {
     public static void main(String agrs[]){
-                
+          //pass
     }
 }
