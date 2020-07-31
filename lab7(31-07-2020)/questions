@@ -1,0 +1,25 @@
+1. Write a class named “MyCmdPgm”. The class should implement two methods
+a.    First method “ClimbStairs” is a recursive method which gives the possible number of ways to climb stairs considering that the user can climb 1 or 2 steps at a time. The method takes in a single integer value ‘n’ as parameter, which is the number of stairs. For example:
+If n=4 there are 5 ways of climbing the stairs
+1,1,1,1   2,1,1   1,2,1   1,1,2   2,2
+ClimbStairs(4) will return an integer value 5.
+b.    Second method “MagicSigil” takes a string and removes its vowels and duplicate letters. The returned string should not contain any spaces and be in uppercase. For duplicate letters the last one is kept. For example
+MagicSigil ("i am healthy”) will return back “MLTHY”
+ Use switch case in the program and use command line argument for choice of    function to be implemented. For example:
+ java MyCmdPgm 1 would invoke first method “ClimbStairs”.
+
+2. Write a class called Savings_Account with following variables
+protected int accountnumber
+protected double balance
+protected double rate
+and create three parameterised constructors and use “this” keyword in two of them. 
+The methods are public void deposit (double amount)to deposit a given amount, 
+public boolean checkminbalance() checks if minimum balance is available or not, 
+You need to maintain Rs.1000 as minimum balance in your account. 
+public boolean withdrawal (double amount) which returns true if withdrawal is 
+possible else false, call the method ”checkminbalance” using ”this” keyword . 
+Make required modifications in the “balance” variable. 
+public void add_interest() method adds interest based on the “rate” variable.
+Create an array of 10 objects. 
+Validations required : Ensure that the “accountnumber” is unique
+
