@@ -20,7 +20,7 @@ public class Main
     }
     
 	public static void main(String[] args) {
-		String inputStrig = "Hello how are you?";
+		String inputStrig = "Hello how are you?";// user
 		magicSigil(inputStrig);
 	}
 }
