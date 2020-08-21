@@ -7,7 +7,7 @@ interface myinterface
 	public int givesamosa(int ratings[]);
 }
 
-class myclassinterface
+class myclassinterface impements myinterface
 {
 	static StringBuffer myString=new StringBuffer();
 	
