@@ -1,3 +1,4 @@
+import java.util.*;
 public class Solution {
     int count = 0;
     
@@ -34,12 +35,12 @@ public class Solution {
     }
 }
 
-public MYSolution{
+public class MYSolution{
     public static void main(String[] args){
         Solution obj = new Solution();
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter the Count of the numbers : ");
         int numCount = scan.nextInt();
-        System.out.println("The count of possible way’s the numbers will be in  the \“systematic order\” : " + obj.countArrangement(numCount));
+        System.out.println("The count of possible way\'s the numbers will be in  the \"systematic order\" : " + obj.countArrangement(numCount));
     }
 }
