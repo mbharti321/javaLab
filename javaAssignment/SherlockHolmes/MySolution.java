@@ -1,5 +1,6 @@
-public class MYSolution {
+public class Solution {
     int count = 0;
+    
     public int countArrangement(int N) {
         int[] nums = new int[N];
         for (int i = 1; i <= N; i++)
@@ -7,6 +8,7 @@ public class MYSolution {
         permute(nums, 0);
         return count;
     }
+    
     public void permute(int[] nums, int l) {
         if (l == nums.length - 1) {
             int i;
@@ -24,9 +26,20 @@ public class MYSolution {
             swap(nums, i, l);
         }
     }
+    
     public void swap(int[] nums, int x, int y) {
         int temp = nums[x];
         nums[x] = nums[y];
         nums[y] = temp;
+    }
+}
+
+public MYSolution{
+    public static void main(String[] args){
+        Solution obj = new Solution();
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter the Count of the numbers : ");
+        int numCount = scan.nextInt();
+        System.out.println("The count of possible way’s the numbers will be in  the \“systematic order\” : " + obj.countArrangement(numCount));
     }
 }
