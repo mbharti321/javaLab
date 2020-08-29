@@ -1,5 +1,5 @@
 import java.util.*;
-public class Solution {
+class Solution {
     int count = 0;
     
     public int countArrangement(int N) {
@@ -41,6 +41,6 @@ public class MYSolution{
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter the Count of the numbers : ");
         int numCount = scan.nextInt();
-        System.out.println("The count of possible way\'s the numbers will be in  the \"systematic order\" : " + obj.countArrangement(numCount));
+        System.out.println("The count \nof possible way\'s for \"systematic order\" : " + obj.countArrangement(numCount));
     }
 }
