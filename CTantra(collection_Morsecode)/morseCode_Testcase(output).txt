@@ -1,0 +1,17 @@
+Enter any string to be morse coded
+mca371
+The string in morse code is --     -.-.   .-     ...--  --...  .----  
+Enter the size of the morse code string you want to decode
+4
+Enter the morse code to decode
+.---
+Enter the morse code to decode
+.-
+Enter the morse code to decode
+...-
+Enter the morse code to decode
+.-
+string : JAVA
+Enter any string to be morse coded
+JavA ProGraMMing
+The string in morse code is .---   .-     ...-   .-     
