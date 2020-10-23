@@ -1,8 +1,6 @@
 import java.io.*;
 import java.util.*;
 
-
-
 //FOR GUI
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -35,8 +33,7 @@ public class login implements ActionListener{
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
 
-        input=new JLabel("Hello! ~~~ Welcome to Pie~~~");
-        //jLabel1.setText("Hello! ~~~ Welcome to Pie~~~");
+        input=new JLabel("Welcome to Pie \n\n");
         input.setBounds(10, 20, 85, 25);
         userText=new JTextField(20);
         userText.setBounds(100,20,165,25);
@@ -98,8 +95,8 @@ public class login implements ActionListener{
         
         else
         {
-            result.setText("Incorrect credentials ");
+            result.setText("Please input correct sentence ");
         }
-        
+	}
 
 }
